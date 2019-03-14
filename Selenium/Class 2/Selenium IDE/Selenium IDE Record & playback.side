@@ -1,0 +1,206 @@
+{
+  "id": "770d8ea8-c35e-4707-9c54-9e5c93907b2c",
+  "version": "1.1",
+  "name": "Untitled Project",
+  "url": "http://newtours.demoaut.com",
+  "tests": [{
+    "id": "b4560526-5820-4a59-9170-fcce42febf5a",
+    "name": "Untitled",
+    "commands": [{
+      "id": "9aeed9bc-5ee4-4bbb-a9af-6cf79f0597f5",
+      "comment": "Link",
+      "command": "open",
+      "target": "/mercuryregister.php",
+      "targets": [],
+      "value": "http://http://newtours.demoaut.com"
+    }, {
+      "id": "215ddc2a-32a7-4405-953c-7f8be9a2ba77",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=REGISTER",
+      "targets": [
+        ["linkText=REGISTER", "linkText"],
+        ["css=td.mouseOver > a", "css"],
+        ["xpath=//a[contains(text(),'REGISTER')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mercuryregister.php')]", "xpath:href"],
+        ["xpath=//tr[2]/td/table/tbody/tr/td[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15234882-1460-4e13-beb1-4a13addeab1a",
+      "comment": "Enter the First Name",
+      "command": "type",
+      "target": "name=firstName",
+      "targets": [
+        ["name=firstName", "name"],
+        ["css=input[name=\"firstName\"]", "css"],
+        ["xpath=//input[@name='firstName']", "xpath:attributes"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Ankush"
+    }, {
+      "id": "d9e5fb1f-2dd9-4474-9f5d-d1a73493e55e",
+      "comment": "Enter the Last Name",
+      "command": "type",
+      "target": "name=lastName",
+      "targets": [
+        ["name=lastName", "name"],
+        ["css=input[name=\"lastName\"]", "css"],
+        ["xpath=//input[@name='lastName']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Wasankar"
+    }, {
+      "id": "4f04f46d-eadd-4fd2-bb4f-0659eb504c8d",
+      "comment": "Enter the Phone No.",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=input[name=\"phone\"]", "css"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "9579225290"
+    }, {
+      "id": "1baea9e5-28af-4cf4-ade7-54a255e06d2c",
+      "comment": "",
+      "command": "type",
+      "target": "id=userName",
+      "targets": [
+        ["id=userName", "id"],
+        ["name=userName", "name"],
+        ["css=#userName", "css"],
+        ["xpath=//input[@id='userName']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": "ankushwasankar@gmail.com"
+    }, {
+      "id": "91417fe5-eff7-4da2-b923-0f2410230660",
+      "comment": "",
+      "command": "type",
+      "target": "name=address1",
+      "targets": [
+        ["name=address1", "name"],
+        ["css=input[name=\"address1\"]", "css"],
+        ["xpath=//input[@name='address1']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Wakad"
+    }, {
+      "id": "eea3c5e0-2a35-475b-8696-9495d7cac6bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=address2",
+      "targets": [
+        ["name=address2", "name"],
+        ["css=input[name=\"address2\"]", "css"],
+        ["xpath=//input[@name='address2']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Pimpari Chinchwad"
+    }, {
+      "id": "7eba8e95-346c-4a0c-92c5-314bf88ad659",
+      "comment": "",
+      "command": "type",
+      "target": "name=city",
+      "targets": [
+        ["name=city", "name"],
+        ["css=input[name=\"city\"]", "css"],
+        ["xpath=//input[@name='city']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Pune"
+    }, {
+      "id": "7f5edcd7-861f-4d05-bba8-65c49fbbc142",
+      "comment": "",
+      "command": "type",
+      "target": "name=state",
+      "targets": [
+        ["name=state", "name"],
+        ["css=input[name=\"state\"]", "css"],
+        ["xpath=//input[@name='state']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Maharashtra"
+    }, {
+      "id": "6350709b-4488-431c-bd15-1943a1598ee5",
+      "comment": "",
+      "command": "type",
+      "target": "name=postalCode",
+      "targets": [
+        ["name=postalCode", "name"],
+        ["css=input[name=\"postalCode\"]", "css"],
+        ["xpath=//input[@name='postalCode']", "xpath:attributes"],
+        ["xpath=//tr[11]/td[2]/input", "xpath:position"]
+      ],
+      "value": "411057"
+    }, {
+      "id": "2a426d57-9b2e-446e-8563-9ebaedbebd41",
+      "comment": "",
+      "command": "select",
+      "target": "name=country",
+      "targets": [],
+      "value": "label=INDIA"
+    }, {
+      "id": "6f7e9bed-c68f-475d-a617-a4ab29990c9e",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//tr[14]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Ankush"
+    }, {
+      "id": "e05b84df-b983-4ac7-a2ce-d95792452a6f",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input[name=\"password\"]", "css"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[15]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "b13c5a29-2e68-414e-95c8-66813e3a5d5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirmPassword",
+      "targets": [
+        ["name=confirmPassword", "name"],
+        ["css=input[name=\"confirmPassword\"]", "css"],
+        ["xpath=//input[@name='confirmPassword']", "xpath:attributes"],
+        ["xpath=//tr[16]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1234"
+    }, {
+      "id": "c1d811b3-fcff-41b4-ba20-7dc9c7ad317e",
+      "comment": "",
+      "command": "click",
+      "target": "name=register",
+      "targets": [
+        ["name=register", "name"],
+        ["css=input[name=\"register\"]", "css"],
+        ["xpath=//input[@name='register']", "xpath:attributes"],
+        ["xpath=//tr[18]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "056aa0d3-ac2f-42d9-9c80-e70f982e4d00",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b4560526-5820-4a59-9170-fcce42febf5a"]
+  }],
+  "urls": ["http://newtours.demoaut.com/"],
+  "plugins": []
+}

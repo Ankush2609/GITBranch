@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.testng.db.CustomListener"/>
+  </listeners>
+  <test thread-count="4" parallel="tests" name="SeleniumClass9(failed)">
+    <classes>
+      <class name="com.testng.db.SeleniumClass9">
+        <methods>
+          <include name="Samplemethod"/>
+        </methods>
+      </class> <!-- com.testng.db.SeleniumClass9 -->
+    </classes>
+  </test> <!-- SeleniumClass9(failed) -->
+  <test thread-count="4" parallel="tests" name="TestNGTest(failed)">
+    <parameter name="name" value="Ankush"/>
+    <parameter name="age" value="26"/>
+    <classes>
+      <class name="com.testng.TestNG1">
+        <methods>
+          <include name="TestNG1m1"/>
+        </methods>
+      </class> <!-- com.testng.TestNG1 -->
+    </classes>
+  </test> <!-- TestNGTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

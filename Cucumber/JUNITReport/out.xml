@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="5" time="0.260105">
+    <testcase classname="Precondition" name="Test1" time="0">
+        <skipped>
+            <![CDATA[Given Test..................................................................undefined
+Given Test1.................................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Precondition" name="Test2" time="0">
+        <skipped>
+            <![CDATA[Given Test..................................................................undefined
+Given Test2.................................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Precondition" name="Test3" time="0">
+        <skipped>
+            <![CDATA[Given Test..................................................................undefined
+Given Test3.................................................................undefined
+]]>
+        </skipped>
+    </testcase>
+    <testcase classname="Login" name="Login with valid Credential" time="0.258748">
+        <system-out>
+            <![CDATA[Given Username as "Admin" & Password as "Password"..........................passed
+Given Username as "User" & Password as "Password"...........................passed
+When User Enters Username & password........................................passed
+And Click on "Login" button.................................................passed
+But Not click reset button..................................................passed
+Then Login should be successful.............................................passed
+Then add items to cart......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login" name="Login with valid Credential 2" time="0.001357">
+        <system-out>
+            <![CDATA[Given Username as "Admin" & Password as "Password"..........................passed
+Given Username as "User" & Password as "Password"...........................passed
+When User Enters Username & password........................................passed
+And Click on "Submit" button................................................passed
+But Not click reset button..................................................passed
+Then Login should be successful.............................................passed
+Then add items to cart......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

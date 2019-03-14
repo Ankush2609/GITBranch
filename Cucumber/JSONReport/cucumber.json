@@ -1,0 +1,425 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Testbackground",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Test1",
+        "description": "",
+        "id": "precondition;test1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Test1",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Testbackground",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "Test2",
+        "description": "",
+        "id": "precondition;test2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "Test2",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "Testbackground",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 3,
+            "name": "Test",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Test3",
+        "description": "",
+        "id": "precondition;test3",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "Test3",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Precondition",
+    "description": "",
+    "id": "precondition",
+    "keyword": "Feature",
+    "uri": "Precondition.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "Login with valid Credential",
+        "description": "",
+        "id": "login;login-with-valid-credential;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 255875350,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Username as \"Admin\" \u0026 Password as \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 35
+                }
+              ],
+              "location": "Test.Credentails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 263174,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Username as \"User\" \u0026 Password as \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 34
+                }
+              ],
+              "location": "Test.Credentails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 190301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Username \u0026 password",
+            "match": {
+              "location": "Test.EnterCredentails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 232968,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on \"Login\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 10
+                }
+              ],
+              "location": "Test.ClickLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160472,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Not click reset button",
+            "match": {
+              "location": "Test.ClickNotReset()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 66832,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login should be successful",
+            "match": {
+              "location": "Test.LoginSuccessful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1958513,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "add items to cart",
+            "match": {
+              "location": "Test.add_to_cart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Catagery",
+                  "Brand"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "Nokia"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "Mi"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Login with valid Credential",
+        "description": "",
+        "id": "login;login-with-valid-credential;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 233345,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Username as \"Admin\" \u0026 Password as \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 35
+                }
+              ],
+              "location": "Test.Credentails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198230,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Username as \"User\" \u0026 Password as \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "User",
+                  "offset": 13
+                },
+                {
+                  "val": "Password",
+                  "offset": 34
+                }
+              ],
+              "location": "Test.Credentails(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 137817,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Enters Username \u0026 password",
+            "match": {
+              "location": "Test.EnterCredentails()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 217110,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on \"Submit\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Submit",
+                  "offset": 10
+                }
+              ],
+              "location": "Test.ClickLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46064,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Not click reset button",
+            "match": {
+              "location": "Test.ClickNotReset()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 166891,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Login should be successful",
+            "match": {
+              "location": "Test.LoginSuccessful()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 357947,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "add items to cart",
+            "match": {
+              "location": "Test.add_to_cart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Catagery",
+                  "Brand"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "Nokia"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "mobile",
+                  "Mi"
+                ],
+                "line": 12
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "test.feature"
+  }
+]
